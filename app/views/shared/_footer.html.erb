@@ -2,7 +2,9 @@
   <div class="footer-links">
     <a href="https://www.linkedin.com/in/jo%C3%A3o-goncalo-pantoja-coutinho-bernardo-9a11b089/" target="_blank"><i class="fab fa-linkedin"></i></a>
     <a href="https://github.com/divinebolt" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="mailto:joaogoncalob@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-    <a href="#"><i class="fa-solid fa-phone"></i> +351 92 660 72 35</a>
+    <%= mail_to "joaogoncalob@gmail.com" do %>
+      <i class="fa-solid fa-envelope"></i>
+    <% end %>
+    <i class="fa-solid fa-phone">+351 92 660 72 35</i>
   </div>
 </div>
