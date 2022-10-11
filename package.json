@@ -6,10 +6,33 @@
     "@hotwired/turbo-rails": "^7.2.0",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.2",
-    "webpack": "^5.74.0",
-    "webpack-cli": "^4.10.0"
+    "esbuild": "^0.14.5",
+    "sass": "^1.45.0"
   },
   "scripts": {
     "build": "webpack --config webpack.config.js"
-  }
+  },
+  "description": "Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divinebolt/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divinebolt/portfolio/issues"
+  },
+  "homepage": "https://github.com/divinebolt/portfolio#readme"
 }
