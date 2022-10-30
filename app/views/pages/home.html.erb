@@ -14,6 +14,9 @@
     <li class="nav-item" role="presentation">
       <button class="nav-link" id="pills-programs-tab" data-bs-toggle="pill" data-bs-target="#pills-programs" type="button" role="tab" aria-controls="pills-programs" aria-selected="true">My Programs</button>
     </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="pills-hobbies-tab" data-bs-toggle="pill" data-bs-target="#pills-hobbies" type="button" role="tab" aria-controls="pills-hobbies" aria-selected="true">Hobbies</button>
+    </li>
   </ul>
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -69,6 +72,7 @@
       </div>
     </div>
     <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
+      <%= image_tag("logotap.svg", with: 200, height: 200) %>
       <p>
         TAP PORTUGAL
         AIRCRAFT MAINTENANCE TECHNICIAN
@@ -81,11 +85,16 @@
         Valve ; HPTC Valve ; Turbine Clearance Control
       </p>
     </div>
-    <div class="tab-pane fade show active" id="pills-programs" role="tabpanel" aria-labelledby="pills-programs-tab">
+    <div class="tab-pane fade" id="pills-programs" role="tabpanel" aria-labelledby="pills-programs-tab">
       <p>
        Link 1 <br>
        Link 2 <br>
        Link 3 <br>
+      </p>
+    </div>
+    <div class="tab-pane fade" id="pills-hobbies" role="tabpanel" aria-labelledby="pills-hobbies-tab">
+      <p>
+       Hobbies
       </p>
     </div>
   </div>
@@ -93,15 +102,3 @@
     <%= link_to '2 página', second_page_path, :class => "btn" %>
   </button>
 </div>
-<br>
-<br>
-<br>
-<h1>Welcome, this is the home page</h1>
-
-<button type="button"
-        class="btn btn-lg btn-danger"
-        data-bs-toggle="popover"
-        title="This is my first Popover"
-        data-bs-content="Consegues ver isto?!?!?!?!!?!?">
-        Carregue AQUI
-</button>
