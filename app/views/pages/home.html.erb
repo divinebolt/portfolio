@@ -20,7 +20,7 @@
   </ul>
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-      <div class="profile d-flex p-2 mb-4 justify-content-between">
+      <div class="profile d-flex p-2 mb-4 justify-content-between rounded">
         <%= image_tag("foto.jpg", width: 350, height: 350) %>
         <p class="p-5">
           I´m a 43 year-old highly motivated <strong>Full Stack Web Developer</strong>. I consider myself a person with a high sense of responsibility,
@@ -31,44 +31,52 @@
     </div>
     <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-education-tab">
       <div class="education d-inline-flex">
-        <div class="lewagon">
-          <%= image_tag("logolewagon.svg", width: 200, height: 200) %>
-          <p>
-            LE WAGON – WEB DEVELOPER BOOTCAMP
-            BATCH 845 IBERIA WEB PT
-            2022
-            24-week part-time intensive coding bootcamp learning HTML,
-            CSS, Bootstrap, JavaScript E6, SQL, git, GitHub, Heroku and Ruby
-            on Rails.
-          </p>
-        </div>
-        <div class="university">
-          <%= image_tag("logolusofona.jpg", width: 200, height: 200) %>
-          <p>
-          LANGUAGES_____
-          PORTUGUESE (native)
-          ENGLISH
-          LUSÓFONA UNIVERSITY OF HUMANITIES AND
-          TECHNOLOGIES
-          DEGREE IN MATHEMATICS
-          2010-2015
-          Theoretical, methodological and pratical foundations in the
-          areas of computer science and applied mathematics.
-          </p>
-        </div>
-        <div class="tap">
-        <%= image_tag("logotap.svg", with: 200, height: 200) %>
-          <p>
-            TAP AIR PORTUGAL
-            AIRCRAFT MAINTENANCE TECHNICIANS
-            AB-INITIO – ELECTROMECHANICAL
-            2002-2003
-            Carry out fault detection, repair and testing of systems. Perform
-            preventive and corrective maintenance on aircraft, repairing,
-            replacing and regulating equipment or components of electrical
-            and mechanical systems.
-          </p>
-        </div>
+        <ul>
+          <li>
+            <div class="lewagon">
+              <%= image_tag("logolewagon.svg", width: 200, height: 200) %>
+              <p>
+                LE WAGON – WEB DEVELOPER BOOTCAMP
+                BATCH 845 IBERIA WEB PT
+                2022
+                24-week part-time intensive coding bootcamp learning HTML,
+                CSS, Bootstrap, JavaScript E6, SQL, git, GitHub, Heroku and Ruby
+                on Rails.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="university">
+              <%= image_tag("logolusofona.jpg", width: 200, height: 200) %>
+              <p>
+              LANGUAGES_____
+              PORTUGUESE (native)
+              ENGLISH
+              LUSÓFONA UNIVERSITY OF HUMANITIES AND
+              TECHNOLOGIES
+              DEGREE IN MATHEMATICS
+              2010-2015
+              Theoretical, methodological and pratical foundations in the
+              areas of computer science and applied mathematics.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="tap">
+            <%= image_tag("logotap.svg", with: 200, height: 200) %>
+              <p>
+                TAP AIR PORTUGAL
+                AIRCRAFT MAINTENANCE TECHNICIANS
+                AB-INITIO – ELECTROMECHANICAL
+                2002-2003
+                Carry out fault detection, repair and testing of systems. Perform
+                preventive and corrective maintenance on aircraft, repairing,
+                replacing and regulating equipment or components of electrical
+                and mechanical systems.
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-experience-tab">
